@@ -1,0 +1,2 @@
+// delete everything that doesn't needed in styles/main.scss 
+// change media queries to mixins

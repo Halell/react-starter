@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+import './assets/styles/main.scss'
+
+import Header from './cmps/header'
+import MainPage from './views/main-page'
+import XXXEdit from './views/xxx-edit'
+//login ?
+//about
+
+// import { XXXDetails } from './views/XXXDetails';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div className="app-container">
+        <Header />
+        <main className='container'>
+          <Routes>
+            <Route path="/xxx/edit/:id?" component={ XXXEdit } />
+            <Route path="/" component={ MainPage } />
+          </Routes>
+        </main>
+        {/* <footer>
+          <section className='container'>
+            xxxRights 2022 &copy;
+          </section>
+        </footer> */}
+      </div>
+    </Router>
+  )
+
 }
 
-export default App;
+export default App
