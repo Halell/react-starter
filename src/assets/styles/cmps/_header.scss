@@ -10,13 +10,25 @@ header {
     h1 {
         margin: 10px;
     }
+    ul{
+        margin:none;
+        width:100px;
+        position:fixed; 
+        top:105.33px;
+        right:-100px;
+        background-color: white;
+        transition: right 0.5s ease-in-out;
 
-    ul {
+    &.open {
+        // transform: translate(-50%, 0);
         display: flex;
         list-style: none;
         flex-direction: column;
+        right:0;
 
         li {
+            text-align: center;
+            color:black;
             display: flex;
             align-items: center;
             margin-right: 0;
@@ -28,34 +40,67 @@ header {
                 color: inherit;
             }
         }
-
-        &:before {
-            content: "";
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect x='5' y='10' width='20' height='2'/%3E%3Crect x='5' y='17' width='20' height='2'/%3E%3Crect x='5' y='24' width='20' height='2'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: center;
-            cursor: pointer;
-        }
     }
+}
+
+    .hamburger {
+        background-color: unset;
+        border:none;
+        .line {
+          fill: none;
+          stroke: white;
+          stroke-width: 6;
+          transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+            stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .line1 {
+          stroke-dasharray: 60 207;
+          stroke-width: 6;
+        }
+        .line2 {
+          stroke-dasharray: 60 60;
+          stroke-width: 6;
+        }
+        .line3 {
+          stroke-dasharray: 60 207;
+          stroke-width: 6;
+        }
+        &.opened {
+          .line1 {
+            stroke-dasharray: 90 207;
+            stroke-dashoffset: -134;
+            stroke-width: 6;
+          }
+          .line2 {
+            stroke-dasharray: 1 60;
+            stroke-dashoffset: -30;
+            stroke-width: 6;
+          }
+          .line3 {
+            stroke-dasharray: 90 207;
+            stroke-dashoffset: -134;
+            stroke-width: 6;
+          }
+        }
+      }
+      
 
     @media (min-width: 767px) {
-
-        ul {
+        button.hamburger{
+            display: none;
+        }
+        ul, ul.open {
+            background-color: unset;;
+            width:auto;
+            position:static ;
+            display: flex;
+            list-style: none;
             flex-direction: row;
-            list-style-type: none;
 
             li {
-
+                color:white;
                 margin-inline-end: 10px;
                 margin-bottom: 0;
-            }
-
-
-            &:before {
-                display: none;
             }
         }
     }
