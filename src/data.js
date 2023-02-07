@@ -1,0 +1,222 @@
+export const xxx = [
+    {
+        "ID": 1,
+        "name": "Crystal Clear Glass",
+        "color": "Transparent",
+        "shape": "Round",
+        "diameter": 5.5,
+        "height": 6,
+        "volume": 24,
+        "material": "Soda-Lime Glass",
+        "price": 12.99
+    },
+    {
+        "ID": 2,
+        "name": "Square Glass Tumbler",
+        "color": "Transparent",
+        "shape": "Square",
+        "diameter": 4,
+        "height": 5,
+        "volume": 12,
+        "material": "Borosilicate Glass",
+        "price": 14.99
+    },
+    {
+        "ID": 3,
+        "name": "Blue Glass Vase",
+        "color": "Blue",
+        "shape": "Vase",
+        "diameter": 8,
+        "height": 10,
+        "volume": 40,
+        "material": "Soda-Lime Glass",
+        "price": 22.99
+    },
+    {
+        "ID": 4,
+        "name": "Green Glass Pitcher",
+        "color": "Green",
+        "shape": "Pitcher",
+        "diameter": 6,
+        "height": 9,
+        "volume": 36,
+        "material": "Borosilicate Glass",
+        "price": 28.99
+    },
+    {
+        "ID": 5,
+        "name": "Ruby Red Wine Glass",
+        "color": "Red",
+        "shape": "Wine Glass",
+        "diameter": 2.5,
+        "height": 8,
+        "volume": 6,
+        "material": "Soda-Lime Glass",
+        "price": 19.99
+    },
+    {
+        "ID": 6,
+        "name": "Purple Glass Goblet",
+        "color": "Purple",
+        "shape": "Goblet",
+        "diameter": 4,
+        "height": 7,
+        "volume": 12,
+        "material": "Borosilicate Glass",
+        "price": 22.99
+    },
+    {
+        "ID": 7,
+        "name": "Smokey Gray Glass Mug",
+        "color": "Gray",
+        "shape": "Mug",
+        "diameter": 4,
+        "height": 5,
+        "volume": 12,
+        "material": "Soda-Lime Glass",
+        "price": 17.99
+    },
+    {
+        "ID": 8,
+        "name": "Amber Glass Decanter",
+        "color": "Amber",
+        "shape": "Decanter",
+        "diameter": 5,
+        "height": 9,
+        "volume": 20,
+        "material": "Borosilicate Glass",
+        "price": 35.99
+    },
+    {
+        "ID": 9,
+        "name": "Clear Glass Flask",
+        "color": "Transparent",
+        "shape": "Flask",
+        "diameter": 3,
+        "height": 5,
+        "volume": 6,
+        "material": "Soda-Lime Glass",
+        "price": 14.99
+    },
+    {
+        "ID": 10,
+        "name": "Black Glass Ashtray",
+        "color": "Black",
+        "shape": "Ashtray",
+        "diameter": 6,
+        "height": 1,
+        "volume": 3,
+        "material": "Borosilicate Glass",
+        "price": 12.99
+    },
+    {
+        "ID": 11,
+        "name": "Teal Glass Candle Holder",
+        "color": "Teal",
+        "shape": "Candle Holder",
+        "diameter": 4,
+        "height": 5,
+        "volume": 4,
+        "material": "Soda-Lime Glass",
+        "price": 15.99
+    },
+    {
+        "ID": 12,
+        "name": "Yellow Glass Votive",
+        "color": "Yellow",
+        "shape": "Votive",
+        "diameter": 2.5,
+        "height": 3,
+        "volume": 2,
+        "material": "Borosilicate Glass",
+        "price": 9.99
+    },
+    {
+        "ID": 13,
+        "name": "Pink Glass Perfume Bottle",
+        "color": "Pink",
+        "shape": "Perfume Bottle",
+        "diameter": 1.5,
+        "height": 5,
+        "volume": 2,
+        "material": "Soda-Lime Glass",
+        "price": 19.99
+    },
+    {
+        "ID": 14,
+        "name": "Silver Glass Picture Frame",
+        "color": "Silver",
+        "shape": "Picture Frame",
+        "diameter": 8,
+        "height": 10,
+        "volume": 10,
+        "material": "Borosilicate Glass",
+        "price": 24.99
+    },
+    {
+        "ID": 15,
+        "name": "Orange Glass Decorative Plate",
+        "color": "Orange",
+        "shape": "Decorative Plate",
+        "diameter": 10,
+        "height": 1,
+        "volume": 10,
+        "material": "Soda-Lime Glass",
+        "price": 29.99
+    },
+    {
+        "ID": 16,
+        "name": "White Glass Sugar Bowl",
+        "color": "White",
+        "shape": "Sugar Bowl",
+        "diameter": 4,
+        "height": 5,
+        "volume": 6,
+        "material": "Borosilicate Glass",
+        "price": 19.99
+    },
+    {
+        "ID": 17,
+        "name": "Red Glass Salt Shaker",
+        "color": "Red",
+        "shape": "Salt Shaker",
+        "diameter": 2,
+        "height": 4,
+        "volume": 2,
+        "material": "Soda-Lime Glass",
+        "price": 12.99
+    },
+    {
+        "ID": 18,
+        "name": "Brown Glass Oil Dispenser",
+        "color": "Brown",
+        "shape": "Oil Dispenser",
+        "diameter": 3,
+        "height": 7,
+        "volume": 6,
+        "material": "Borosilicate Glass",
+        "price": 19.99
+    },
+    {
+        "ID": 19,
+        "name": "Green Glass Wine Glass",
+        "color": "Green",
+        "shape": "Wine Glass",
+        "diameter": 3,
+        "height": 9,
+        "volume": 6,
+        "material": "Soda-Lime Glass",
+        "price": 14.99
+    },
+    {
+        "ID": 20,
+        "name": "Blue Glass Tumbler",
+        "color": "Blue",
+        "shape": "Tumbler",
+        "diameter": 4,
+        "height": 6,
+        "volume": 8,
+        "material": "Borosilicate Glass",
+        "price": 16.99
+    }
+]

@@ -17,8 +17,8 @@ function App() {
         <Header />
         <main className='container'>
           <Routes>
-            <Route path="/xxx/edit/:id?" component={ XXXEdit } />
-            <Route path="/" component={ MainPage } />
+            {/* <Route path="/xxx/edit/:id?" component={ XXXEdit } /> */ }
+            <Route path="/" element={ <MainPage /> } />
           </Routes>
         </main>
         {/* <footer>
