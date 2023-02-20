@@ -9,11 +9,12 @@ const MainPage = () => {
 
     useEffect(() => {
         xxxService.query()
-            .then(xxx => setXxx(xxxs))
+            .then(xxxs => {setXxx(xxxs)
+                console.log(xxxs)
+            })
     }, [])
 
-    if (!xxxs) return <div>Loading...</div>
-    console.log(xxxs)
+    if (!xxxs|| !xxxs.length) return <div>Loading...</div>
     return (
         <section className="xxx-app">
             {/* <XxxFilter onChangeFilter={onChangeFilter} />

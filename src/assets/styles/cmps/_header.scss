@@ -8,10 +8,10 @@ header {
 
 
     h1 {
-        margin: 10px;
+        margin: 20px;
     }
     ul{
-        margin:none;
+        margin:0;
         width:100px;
         position:fixed; 
         top:105.33px;
@@ -90,6 +90,7 @@ header {
             display: none;
         }
         ul, ul.open {
+            margin-inline-end:min(40px, 10vw);
             background-color: unset;;
             width:auto;
             position:static ;
